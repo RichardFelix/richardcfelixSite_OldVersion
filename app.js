@@ -19,7 +19,7 @@ app.get("/", function (req, res) {
 
 // redirect if error 404 or any other 
 app.use(function(req, res){
-    res.render("index.jade");
+    res.redirect("/");
 });
 
 app.listen(port, function() {
