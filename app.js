@@ -10,10 +10,10 @@ app.set('view engine', 'jade');
 // unminify jade html output
 app.locals.pretty = true;
 
-var port = process.env.PORT || 3000;
-
 // make express look in the public directory for assets (css/js/img)
 app.use(express.static(__dirname + '/'));
+
+var port = process.env.PORT || 3000;
 
  // routes
 app.get("/", function (req, res) {

@@ -1,6 +1,6 @@
 block vars 
 doctype html
-html
+html(ng-app='myApp')
   head
     title #{title}
     meta(name='author', content='Richard Felix')
@@ -16,10 +16,12 @@ html
     script(src='../js/custom.js', type='text/javascript')
 
   body
-   section
-     div(class='padding-bottom padding-top')
-        div(class='text-center col-9 middle')
-           img( id='img' src='../img/logo.png')   
+
+    section
+        div(class='padding-bottom padding-top')
+            div(class='text-center col-9 middle')
+                img( id='img' src='../img/logo.png')   
+        div(ng-view)
     block body
     
   include footer.jade
