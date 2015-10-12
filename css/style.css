@@ -24,7 +24,10 @@ a{
     color: #070765;
     text-decoration:none;
 }
-.box:hover{
+.link:hover{
+    color: red;
+}
+.boxhover:hover{
     color: white;
     background: red;
 }

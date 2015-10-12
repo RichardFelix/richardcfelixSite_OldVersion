@@ -21,19 +21,19 @@ app.get("/", function (req, res) {
 });
 
 app.get("/about", function (req, res) {
-  res.render("about.jade");
+  res.render("partials/about.jade");
 });
 
 app.get("/resume", function (req, res) {
-  res.render("resume.jade");
+  res.render("partials/resume.jade");
 });
 
 app.get("/projects", function (req, res) {
-  res.render("projects.jade");
+  res.render("partials/projects.jade");
 });
 
 app.get("/contact", function (req, res) {
-  res.render("contact.jade");
+  res.render("partials/contact.jade");
 });
 
 // redirect if error 404 or any other 
