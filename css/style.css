@@ -3,7 +3,7 @@
 **********************/
 body{
     background-color: #070765;
-    font-family: Cabin;
+    font-family: Open Sans;
 }
 .box{
     background: white;
@@ -29,10 +29,8 @@ a{
     color: #070765;
     text-decoration:none;
 }
-a:hover{
-    color: white;
-}
 .box:hover{
+    color: white;
     background: red;
 }
 

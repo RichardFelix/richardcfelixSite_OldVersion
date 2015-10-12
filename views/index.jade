@@ -4,21 +4,7 @@ block vars
   - var title = 'Ricahrd C Felix'
 
 block body
-
-    script(type='text/javascript').
-      function img(){
-        if(window.innerWidth < 800 ){
-          image = document.getElementById('img');
-          image.setAttribute('class','col-12')
-        }
-      };
-      window.onload = img;
-      
-    section
-     div(class='padding-bottom padding-top')
-        div(class='text-center col-9 middle')
-           img(id='img' src='../img/logo.png')
-            
+               
      div(class='padding-bottom')
        a(href='/about')
          div(class='box col-9 middle animated fadeInLeft')
