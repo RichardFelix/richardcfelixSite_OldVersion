@@ -16,12 +16,7 @@ body{
     border-width: 2px;
     border-color: black;
 }
-.padding-bottom{
-    padding-bottom: 1cm;
-}
-.padding-top{
-    padding-top: 1cm;
-}
+
 /*********************
         Links
 **********************/
@@ -61,4 +56,10 @@ a{
 }
 .text-center{
     text-align: center;
+}
+.padding-bottom{
+    padding-bottom: 1cm;
+}
+.padding-top{
+    padding-top: 1cm;
 }
