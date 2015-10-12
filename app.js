@@ -12,9 +12,25 @@ app.locals.pretty = true;
 
 var port = process.env.PORT || 3000;
 
- // set the home page route
+ // routes
 app.get("/", function (req, res) {
   res.render("index.jade");
+});
+
+app.get("/about", function (req, res) {
+  res.render("about.jade");
+});
+
+app.get("/resume", function (req, res) {
+  res.render("resume.jade");
+});
+
+app.get("/projects", function (req, res) {
+  res.render("projects.jade");
+});
+
+app.get("/contact", function (req, res) {
+  res.render("contact.jade");
 });
 
 // redirect if error 404 or any other 
