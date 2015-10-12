@@ -25,11 +25,11 @@ a{
     text-decoration:none;
 }
 .link:hover{
-    color: red;
+    color: #00bf0f;
 }
 .boxhover:hover{
     color: white;
-    background: red;
+    background: #00bf0f;
 }
 
 /*********************
