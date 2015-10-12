@@ -1,0 +1,61 @@
+/*********************
+    General Scope
+**********************/
+body{
+    background-color: #070765;
+}
+.box{
+    background: white;
+    border-radius: 1em;
+    padding: 15px;
+    box-shadow: 10px 10px 5px #000000;
+    text-transform: uppercase;
+    font-family: Cabin;
+    text-align: center;
+}
+.outsideDiv{
+    padding-bottom: 1cm;
+}
+
+/*********************
+        Links
+**********************/
+a{
+    color: #070765;
+    text-decoration:none;
+}
+a:hover{
+    color: white;
+}
+.box:hover{
+    background: red;
+}
+
+/*********************
+     Responsive
+**********************/
+.col-3 {
+    width: 25%;
+}
+.col-6{
+    width: 50%;
+}
+.col-9{
+    width: 75%;
+}
+.col-12{
+    width: 100%;
+}
+
+/*********************
+     Positioning
+**********************/
+.middle{
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+.text-center{
+    text-align: center;
+}

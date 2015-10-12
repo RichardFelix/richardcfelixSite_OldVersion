@@ -1,41 +1,30 @@
-doctype html
-html(lang='en')
-  head
-    meta(name='author', content='Richard Felix')
-    meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
-    meta(charset='utf-8')
-    link(href='https://fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic', rel='stylesheet', type='text/css')
-    style.
-      body{
-         background-color: #070765;
-      }
-      section{
-          font-family: Cabin;
-          background: white;
-          color: #070765;
-          border-radius: 1em;
-          padding: 1em;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          margin-right: -50%;
-          transform: translate(-50%, -50%);
-          box-shadow: 10px 10px 5px #000000;
-      }
-      a{
-         color: #070765;
-      }
-      a:hover{
-         color: #ff0000;
-      }
-    title Richard C Felix
-  body
+extends base
+
+block vars
+  - var title = 'Ricahrd C Felix'
+
+block body
     section
-      h1 Coming Soon
-      br
-      a(href='https://github.com/RichardFelix', target='_blank') Github
-      br
-      a(href='https://bitbucket.org/RichardFelix', target='_blank') Bitbucket
-      br
-      br
-      a(href='mailto:me@richardcfelix.com') me@richardcfelix.com
+     div(class='outsideDiv')
+        div(class='text-center col-9 middle')
+           h1 RCF logo
+            
+     div(class='outsideDiv')
+       a(href='about.jade')
+         div(class='box col-9 middle')
+            h1 About Me
+            
+     div(class='outsideDiv')
+        a(href='')
+          div(class='box col-9 middle')
+             h1 Resume
+            
+     div(class='outsideDiv') 
+        a(href='')
+          div(class='box col-9 middle')
+             h1 Projects
+            
+     div(class='outsideDiv')
+        a(href='')
+          div(class='box col-9 middle')
+             h1 Contact
