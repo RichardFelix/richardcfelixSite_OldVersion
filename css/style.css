@@ -27,12 +27,6 @@ a{
 a:hover{
     color: white;
 }
-/*
-a:active{ 
-    border: none;
-    outline: none;
-}
-*/
 .box:hover{
     background: red;
 }
