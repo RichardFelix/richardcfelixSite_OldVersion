@@ -1,6 +1,7 @@
-var express = require('express');
-var app = express()
-var compression = require('compression');
+var express = require('express'),
+    app = express(),
+    compression = require('compression'),
+    routes = require('./routes');
 
 // gzip enabled for faster loading
 app.use(compression());
@@ -16,34 +17,8 @@ app.use(express.static(__dirname + '/'));
 var port = process.env.PORT || 3000;
 
  // routes
-app.get("/", function (req, res) {
-  res.render("index.jade");
-});
-
-app.get("/menu", function (req, res) {
-  res.render("partials/menu.jade");
-});
-
-app.get("/about", function (req, res) {
-  res.render("partials/about.jade");
-});
-
-app.get("/resume", function (req, res) {
-  res.render("partials/resume.jade");
-});
-
-app.get("/projects", function (req, res) {
-  res.render("partials/projects.jade");
-});
-
-app.get("/contact", function (req, res) {
-  res.render("partials/contact.jade");
-});
-
-// redirect if error 404 or any other 
-app.use(function(req, res){
-    res.redirect("/");
-});
+app.get('/', routes.index);
+app.get('/:name', routes.partials);
 
 app.listen(port, function() {
 	console.log('Our app is running on http://localhost:' + port);
