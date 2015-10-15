@@ -20,6 +20,10 @@ app.get("/", function (req, res) {
   res.render("index.jade");
 });
 
+app.get("/menu", function (req, res) {
+  res.render("partials/menu.jade");
+});
+
 app.get("/about", function (req, res) {
   res.render("partials/about.jade");
 });
