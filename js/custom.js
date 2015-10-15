@@ -1,12 +1,19 @@
 window.onload = function(){
     if(window.innerWidth < 700 ){
-      image = document.getElementById('img');
-      image.setAttribute('class','col-12')
+      document.getElementById('img').setAttribute('class','col-12');
+      document.body.style.backgroundImage = "url('../img/1-mobile.jpg')"; 
     }
     
-    setTimeout(function(){
-      menu = document.getElementById('menuButton');
-      menu.setAttribute('class','box-small boxhover col-3 middle animated fadeIn');
-      menu.innerHTML='Menu';
-    },2000);
+    if(window.location.pathname == '/'){
+    
+        setTimeout(function(){
+          var menu = document.getElementById('menuButton');
+          if(window.innerWidth < 700 ){
+            menu.setAttribute('class','box boxhover col-6 middle animated fadeIn');  
+          }else{    
+            menu.setAttribute('class','box boxhover col-3 middle animated fadeIn'); 
+          }
+          menu.innerHTML='Menu';
+        },2000);
+    }
 };
