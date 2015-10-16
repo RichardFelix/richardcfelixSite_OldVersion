@@ -1,6 +1,7 @@
 # Summary #
+### Under construction ###
 
-This is my repository for my website.  Under construction.
+This is my repository for my website. 
 
 Menu button will appear on splash screen after 2 second timeout.  
 So enjoy the view for those 2 seconds :-).
@@ -25,4 +26,3 @@ http://www.richardcfelix.com
 
 ### Desktop ###
 ![splash.JPG](https://bitbucket.org/repo/AA9G7b/images/2696367143-splash.JPG)
-
