@@ -17,6 +17,7 @@ http://www.richardcfelix.com
 *     JavaScript
 *     Node.js
 *     Express
+*     AngularJS
 *     HTML
 *     CSS
 
