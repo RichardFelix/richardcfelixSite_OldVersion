@@ -18,7 +18,7 @@ var port = process.env.PORT || 3000;
 
  // routes
 app.get('/', routes.index);
-app.get('/partials/:name', routes.partials);
+//app.get('/partials/:name', routes.partials);
 //app.get('/:name', routes.partials);
 
 app.listen(port, function() {
