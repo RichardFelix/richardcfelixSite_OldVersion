@@ -18,7 +18,8 @@ var port = process.env.PORT || 3000;
 
  // routes
 app.get('/', routes.index);
-app.get('/:name', routes.partials);
+app.get('/partials/:name', routes.partials);
+//app.get('/:name', routes.partials);
 
 app.listen(port, function() {
 	console.log('Our app is running on http://localhost:' + port);

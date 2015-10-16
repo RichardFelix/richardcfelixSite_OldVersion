@@ -4,8 +4,12 @@ block vars
   - var title = 'Ricahrd C Felix'
 
 block body
-
-    a(href='/menu')
-        h1(id='menuButton')
+  section(class='logo')
+      a(href='/menu')
+        div(class='padding-bottom padding-top')
+            div(class='text-center col-9 middle')
+                img( id='img' src='../img/logo.png') 
+  div(ng-view)
         
-    include script.jade
+  include script.jade
+  include footer.jade

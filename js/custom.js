@@ -11,9 +11,9 @@ window.onload = function(){
         setTimeout(function(){
           var menu = document.getElementById('menuButton');
           if(window.innerWidth < 700 ){
-            menu.setAttribute('class','box boxhover col-6 middle animated fadeIn');  
+            menu.setAttribute('class','box boxhover col-6 middle animated zoomIn');  
           }else{    
-            menu.setAttribute('class','box boxhover col-3 middle animated fadeIn'); 
+            menu.setAttribute('class','box boxhover col-3 middle animated zoomIn'); 
           }
           menu.innerHTML='Menu';
         },2000);

@@ -1,25 +1,34 @@
 (function(){
 
-    var app = angular.module('myApp', ['ngRoute', 'ngAnimate']);
+    var app = angular.module('myApp', ['ngRoute']);
     
-    app.config(function ($routeProvider){
+    app.config(function ($routeProvider, $locationProvider) {
+        
         $routeProvider
             .when('/',{
-                templateUrl: 'index.jade'
+                template: '<a href="/menu"> <h1 id="menuButton"></h1>'
+            })
+            .when('/menu',{
+                templateUrl: '../views/partials/menu.html'
             })
             .when('/about',{
-                templateUrl: 'about.jade'
+                templateUrl: '../views/partials/about.html'
             })
             .when('/resume',{
-                templateUrl: 'resume.jade'
+                templateUrl: '../views/partials/resume.html'
             })
             .when('/projects',{
-                templateUrl: 'projects.jade'
+                templateUrl: '../views/partials/projects.html'
             })
             .when('/contact',{
-                templateUrl: 'contact.jade'
+                templateUrl: '../views/partials/contact.html'
             })
             .otherwise({ redirectTo: '/' });
+        
+            $locationProvider.html5Mode({
+              enabled: true,
+              requireBase: false
+            });
     });
     
 }());
