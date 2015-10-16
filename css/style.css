@@ -22,7 +22,7 @@ body{
         Links
 **********************/
 a{
-    color: #070765;
+    color: #25383f;
     text-decoration:none;
 }
 .link:hover{
@@ -31,6 +31,10 @@ a{
 .boxhover:hover{
     color: white;
     background: #25383f;
+}
+.tooltip{
+    display: inline;
+    position: relative;
 }
 
 /*********************
