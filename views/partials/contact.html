@@ -1,10 +1,28 @@
 <section> 
   <div class="box col-9 middle animated zoomIn">
   <h1>Contact</h1>
-    <p>UNDER CONSTRUCTION
-      <p>
-          <a href="mailto:me@richardcfelix.com" class="link tooltip" title='Email Me'><i class="fa fa-envelope fa-2x"></i></a>
-      </p>
-    </p>
-  </div>
+        <form class='ws-validate' method="POST" action="/form">
+            <div class="input-text form-group">
+                <input class='col-6' type="text" name="name" placeholder="Name" required>
+            </div>
+            <div class="input-email form-group">
+                <input class='col-6' type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="input-text form-group">
+                <input class='col-6' type='tel' name='tel' placeholder="Phone Number" required onKeyPress="return checkPhone(event)" maxlength="11">
+            </div>
+            <div class="input-message form-group">
+                <textarea class='col-6' name="message" placeholder="message" rows="9" required ></textarea>
+            </div>
+            <br/>
+                <input class='button' type="submit" value="Submit">                                       
+            
+        </form> 
+    
+    <br/><br/>
+    <a href="mailto:me@richardcfelix.com" class="link tooltip" title='Email Me'><i class="fa fa-envelope fa-2x"></i>
+        <br/>
+        me@richardcfelix.com
+    </a>
+  </div>  
 </section>

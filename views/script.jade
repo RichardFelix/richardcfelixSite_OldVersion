@@ -2,3 +2,33 @@ script(src='../js/custom.js', type='text/javascript')
 script(src='../lib/angular.js', type='text/javascript')
 script(src='../lib/angular-routes.js', type='text/javascript')
 script(src='../js/routes.js', type='text/javascript')
+
+script(src='../js/jquery-2.1.1.min.js', type='text/javascript')
+script(src='../js/js-webshim/minified/polyfiller.js', type='text/javascript')
+script.
+    /* form validation code */
+    (function () {
+        webshim.setOptions('forms', {
+                lazyCustomMessages: true,
+                iVal: {
+                sel: '.ws-validate',
+                handleBubble: 'hide',
+                errorMessageClass: 'help-block',
+                successWrapperClass: 'has-success',
+                errorWrapperClass: 'has-error',
+                fieldWrapper: '.form-group'
+            }
+        });
+        webshim.polyfill('forms');
+    })();
+script.
+    function checkPhone(evt) {
+        evt = (evt) ? evt : window.event
+        var charCode = (evt.which) ? evt.which : evt.keyCode
+        if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+            status = "This field accepts numbers only."
+            return false
+        }
+        status = ""
+        return true;
+    }

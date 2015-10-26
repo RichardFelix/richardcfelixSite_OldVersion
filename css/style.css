@@ -71,3 +71,22 @@ a{
 .padding-top{
     padding-top: 1cm;
 }
+
+/***************************
+      Submit Button
+***************************/
+.button {
+    color: white;
+    background: #25383f;
+    border-radius: 1em;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+.button:hover {
+   color: white;
+   background: red;
+}
