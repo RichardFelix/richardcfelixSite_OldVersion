@@ -20,9 +20,6 @@
             .when('/projects',{
                 templateUrl: '../views/partials/projects.html'
             })
-            .when('/contact',{
-                templateUrl: '../views/partials/contact.html'
-            })
             .otherwise({ redirectTo: '/' });
         
             $locationProvider.html5Mode({
