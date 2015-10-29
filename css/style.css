@@ -15,6 +15,11 @@ body{
     border-width: 2px;
     border-color: black;
 }
+.myPic{
+    border-radius: 50%;
+    width: 200px;
+	height: 200px;
+}
 
 /*********************
         Links
