@@ -1,7 +1,6 @@
 var express = require('express'),
     app = express(),
-    compression = require('compression'),
-    routes = require('./routes');
+    compression = require('compression');
 
 // gzip enabled for faster loading
 app.use(compression());
@@ -17,9 +16,13 @@ app.use(express.static(__dirname + '/'));
 var port = process.env.PORT || 3000;
 
  // routes
-app.get('/', routes.index);
+app.get('/', function(req, res){
+	res.render('index.jade');
+});
 
-app.get('*', routes.index);
+app.get('*', function(req, res){
+	res.render('index.jade');
+});
 
 app.listen(port, function() {
 	console.log('Our app is running on http://localhost:' + port);
