@@ -1,6 +1,4 @@
 # Summary #
-### Under construction ###
-
 This is my repository for my responsive website. 
 
 # Site Link #
