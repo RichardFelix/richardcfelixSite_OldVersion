@@ -6,7 +6,7 @@
         
         $routeProvider
             .when('/',{
-                template: '<a href="/menu"> <h1 id="menuButton" class="box boxhover col-6 middle animated zoomInDown">Menu</h1>'
+                template: '<div id="item"></div><br /><div id="item"></div><br /><div id="item"></div><br /><div id="item"></div><br />'
             })
             .when('/menu',{
                 templateUrl: '../views/partials/menu.html'

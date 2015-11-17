@@ -3,13 +3,12 @@ extends base
 block vars
   - var title = 'Richard C Felix'
 
-block body
-  section(class='logo')
-      a(href='/menu')
-        div(class='padding-bottom padding-top')
-            div(class='text-center col-9 middle')
-                img( id='img' src='../public/img/logo.png')    
+  div(id='box' class='middle padding-top')
+    div(id='screen' class='middle')
+     
+block body  
   div(ng-view class='animation')
+
         
   include script.jade
   include footer.jade

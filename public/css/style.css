@@ -2,28 +2,50 @@
     General Scope
 **********************/
 body{
-    background-color: black;
+    background-color: grey;
     font-family: Open Sans;
 }
-.box{
+#item{
+    background: red;
+    border-radius: 1em;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 30px;
+    top: 100px;
+}
+#box{
     background: white;
     border-radius: 1em;
-    padding: 15px;
-    box-shadow: 10px 10px 5px #000000;
+    height: 580px;
     text-align: center;
+}
+#screen{
+    background: #000000;
+/*    border-radius: 1em;*/
+/*    padding: 15px;*/
+/*    width: 320px;*/
+    height: 480px;
+/*    box-shadow: 10px 10px 5px #000000;*/
+    text-align: center;
+/*
     border-style: solid;
     border-width: 2px;
     border-color: black;
+*/
 }
+/*
 .myPic{
     border-radius: 50%;
     width: 200px;
 	height: 200px;
 }
+*/
 
 /*********************
         Links
 **********************/
+/*
 a{
     color: #25383f;
     text-decoration:none;
@@ -39,6 +61,7 @@ a{
     display: inline;
     position: relative;
 }
+*/
 
 /*********************
      Responsive
@@ -60,7 +83,7 @@ a{
      Positioning
 **********************/
 .middle{
-    height: auto;
+/*    height: auto;*/
     margin: 0 auto;
     padding: 10px;
     position: relative;
@@ -72,16 +95,17 @@ a{
     padding-bottom: 1cm;
 }
 .padding-top{
-    padding-top: 1cm;
+    padding-top: 2cm;
 }
 
 /***************************
       Animations
 ***************************/
+
 .animation.ng-enter {
-  animation: zoomInDown 1s;
+  animation: zoomIn 1s;
 }
 
 .animation.ng-leave {
-  animation: zoomOutDown .5s;
+  animation: zoomOut .5s;
 }
