@@ -16,7 +16,7 @@ http://www.richardcfelix.com
 
 # Screen Shots #
 ### Mobile ###
-![mBack.JPG](https://bitbucket.org/repo/AA9G7b/images/607575823-mBack.JPG)
+![mBack.png](https://bitbucket.org/repo/AA9G7b/images/2259327261-mBack.png)
 
 ### Desktop ###
-![back.JPG](https://bitbucket.org/repo/AA9G7b/images/3504164347-back.JPG)
+![back.png](https://bitbucket.org/repo/AA9G7b/images/3024318750-back.png)
