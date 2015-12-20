@@ -4,6 +4,8 @@
 body{
     background-color: black;
     font-family: Open Sans;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .box{
     background: white;
