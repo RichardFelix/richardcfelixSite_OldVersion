@@ -7,6 +7,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.fontSize24{
+    font-size: 20px;
+}
 .box{
     background: white;
     border-radius: 1em;
