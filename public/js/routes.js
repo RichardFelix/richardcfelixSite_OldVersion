@@ -6,19 +6,19 @@
         
         $routeProvider
             .when('/',{
-                template: '<a href="/menu"> <h1 id="menuButton" class="box boxhover col-6 middle animated zoomInDown">Enter</h1>'
+                template: '<a href="/menu"> <h1 id="menuButton" class="box boxhover col-6 middle animated zoomInDown">Menu</h1>'
             })
             .when('/menu',{
-                templateUrl: '/partials/menu.html'
+                templateUrl: '../views/partials/menu.html'
             })
             .when('/about',{
-                templateUrl: '/partials/about.html'
+                templateUrl: '../views/partials/about.html'
             })
             .when('/resume',{
-                templateUrl: '/partials/resume.html'
+                templateUrl: '../views/partials/resume.html'
             })
             .when('/projects',{
-                templateUrl: '/partials/projects.html'
+                templateUrl: '../views/partials/projects.html'
             })
             .otherwise({ redirectTo: '/' });
         

@@ -2,13 +2,15 @@
     General Scope
 **********************/
 body{
-    background-color: #4b6f7c;
+    background-color: black;
     font-family: Open Sans;
+/*
     background-repeat: no-repeat;
     background-size: cover;
+*/
 }
 .fontSize24{
-    font-size: 20px;
+    font-size: 20px; 
 }
 .box{
     background: white;

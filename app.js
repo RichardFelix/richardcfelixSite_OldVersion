@@ -11,17 +11,17 @@ app.set('view engine', 'jade');
 app.locals.pretty = true;
 
 // make express look in the public directory for assets (css/js/img)
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/'));
 
 var port = process.env.PORT || 3000;
 
  // routes
 app.get('/', function(req, res){
-	res.render('index');
+	res.render('index.jade');
 });
 
 app.get('*', function(req, res){
-	res.render('index');
+	res.render('index.jade');
 });
 
 app.listen(port, function() {
