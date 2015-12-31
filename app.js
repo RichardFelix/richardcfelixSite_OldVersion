@@ -1,9 +1,5 @@
 var express = require('express'),
-    app = express(),
-    compression = require('compression');
-
-// gzip enabled for faster loading
-app.use(compression());
+    app = express();
 
 // add jade as the engine
 app.set('view engine', 'jade');
