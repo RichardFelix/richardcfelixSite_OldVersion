@@ -1,6 +1,6 @@
 {
   "name": "richardcfelix",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "my webiste",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,8 @@
     "compression": "^1.5.2",
     "express": "~4.13.3",
     "jade": "~1.11.0"
+  },
+  "devDependencies": {
+    "flightplan": "^0.6.8"
   }
 }
