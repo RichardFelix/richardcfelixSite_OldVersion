@@ -13,11 +13,11 @@ var port = process.env.PORT || 3000;
 
  // routes
 app.get('/', function(req, res){
-	res.render('index.jade');
+	res.render('index');
 });
 
 app.get('*', function(req, res){
-	res.render('index.jade');
+	res.render('index');
 });
 
 app.listen(port, function() {
