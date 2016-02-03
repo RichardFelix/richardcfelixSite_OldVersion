@@ -4,7 +4,7 @@ var express = require('express'),
 // add jade as the engine
 app.set('view engine', 'jade');
 // unminify jade html output
-app.locals.pretty = true;
+//app.locals.pretty = true;
 
 // make express look in the public directory for assets (css/js/img)
 app.use(express.static(__dirname + '/'));

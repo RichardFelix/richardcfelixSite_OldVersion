@@ -1,92 +1,88 @@
 /*********************
     General Scope
 **********************/
-body{
-    background-color: black;
-    font-family: Open Sans;
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  background-color: black;
+  font-family: Open Sans;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.fontSize24{
-    font-size: 20px; 
+.fontSize24 {
+  font-size: 20px;
 }
-.box{
-    background: white;
-    border-radius: 1em;
-    padding: 15px;
-    box-shadow: 10px 10px 5px #000000;
-    text-align: center;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
+.box {
+  background: white;
+  border-radius: 1em;
+  padding: 15px;
+  box-shadow: 10px 10px 5px #000000;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
 }
-.myPic{
-    border-radius: 50%;
-    width: 200px;
-	height: 200px;
+.myPic {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
-
 /*********************
         Links
 **********************/
-a{
-    color: #25383f;
-    text-decoration:none;
+a {
+  color: #25383f;
+  text-decoration: none;
 }
-.link:hover{
-    color: #fc0707;
+.link:hover {
+  color: #fc0707;
 }
-.boxhover:hover{
-    color: white;
-    background: #25383f;
+.boxhover:hover {
+  color: white;
+  background: #25383f;
 }
-.tooltip{
-    display: inline;
-    position: relative;
+.tooltip {
+  display: inline;
+  position: relative;
 }
-
 /*********************
      Responsive
 **********************/
 .col-3 {
-    width: 25%;
+  width: 25%;
 }
-.col-6{
-    width: 50%;
+.col-6 {
+  width: 50%;
 }
-.col-9{
-    width: 85%;
+.col-9 {
+  width: 85%;
 }
-.col-12{
-    width: 100%;
+.col-12 {
+  width: 100%;
 }
-
 /*********************
      Positioning
 **********************/
-.middle{
-    height: auto;
-    margin: 0 auto;
-    padding: 10px;
-    position: relative;
+.middle {
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
 }
-.text-center{
-    text-align: center;
+.text-center {
+  text-align: center;
 }
-.padding-bottom{
-    padding-bottom: 1cm;
+.padding-bottom {
+  padding-bottom: 1cm;
 }
-.padding-top{
-    padding-top: 1cm;
+.padding-top {
+  padding-top: 1cm;
 }
-
 /***************************
       Animations
 ***************************/
 .animation.ng-enter {
   animation: zoomInDown 1s;
 }
-
 .animation.ng-leave {
   animation: zoomOutDown .5s;
 }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImdlbmVyYWxTY29wZS5sZXNzIiwibGlua3MubGVzcyIsInJlc3BvbnNpdmUubGVzcyIsIndpZHRoTWl4aW4ubGVzcyIsInBvc2l0aW9uLmxlc3MiLCJwb3NpdGlvbk1peGluLmxlc3MiLCJhbmltYXRpb25zLmxlc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBSUE7RUFDSSx1QkFBQTtFQUNBLHNCQUFBO0VBQ0EsNEJBQUE7RUFDQSxzQkFBQTs7QUFFSjtFQUNJLGVBQUE7O0FBRUo7RUFDSSxpQkFBQTtFQUNBLGtCQUFBO0VBQ0EsYUFBQTtFQUNBLGlDQUFBO0VBQ0Esa0JBQUE7RUFDQSxtQkFBQTtFQUNBLGlCQUFBO0VBQ0EsbUJBQUE7O0FBRUo7RUFDSSxrQkFBQTtFQUNBLFlBQUE7RUFDSCxhQUFBOzs7OztBQ3ZCRDtFQUNJLGNBQUE7RUFDQSxxQkFBQTs7QUFFSixLQUFLO0VBQ0QsY0FBQTs7QUFFSixTQUFTO0VBQ0wsWUFBQTtFQUNBLG1CQUFBOztBQUVKO0VBQ0ksZUFBQTtFQUNBLGtCQUFBOzs7OztBQ2JKO0VDRkksVUFBQTs7QURLSjtFQ0xJLFVBQUE7O0FEUUo7RUNSSSxVQUFBOztBRFdKO0VDWEksV0FBQTs7Ozs7QUNFSjtFQ0ZJLFlBQUE7RUFDQSxjQUFBO0VBQ0EsYUFBQTtFQUNBLGtCQUFBOztBREVKO0VBQ0ksa0JBQUE7O0FBRUo7RUFDSSxtQkFBQTs7QUFFSjtFQUNJLGdCQUFBOzs7OztBRVZKLFVBQVU7RUFDUix3QkFBQTs7QUFHRixVQUFVO0VBQ1IsMEJBQUEiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
