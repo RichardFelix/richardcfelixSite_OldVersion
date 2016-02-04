@@ -9,8 +9,10 @@
   "author": "Richard Felix",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.14.2",
     "express": "~4.13.3",
-    "jade": "~1.11.0"
+    "jade": "~1.11.0",
+    "sendgrid": "^2.0.0"
   },
   "devDependencies": {
     "flightplan": "^0.6.8"

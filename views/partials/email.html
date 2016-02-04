@@ -1,0 +1,18 @@
+ <section>
+    <div class="box col-9 middle">
+        <h1>Contact Me</h1>
+        <span id='thankYou' style='opacity: 0'>THANK YOU FOR CONTACTING ME</span>
+        <form name='form1' ng-submit="submit()" ng-controller="formCtrl">
+            <div>
+                <input name='name' class='form' ng-model="formData.name" type='text' id='name' placeholder='Name' required onkeyup = "checkFilled()"/>
+            </div>
+            <div>
+                <input name='email' class='form' ng-model="formData.email" type='email' id='email' placeholder='Email' required onkeyup = "checkFilled()"/>
+            </div>
+            <div>
+                <textarea name='message' class='form' ng-model="formData.message" id="message" name="message"  placeholder="Message" rows="9" required onkeyup = "checkFilled()"></textarea>
+            </div>
+            <button id='submit' type="submit" onclick='thankYou()' disabled='true'>SUBMIT</button>
+        </form>
+    </div>
+ </section>
