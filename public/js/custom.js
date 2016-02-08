@@ -15,7 +15,7 @@ window.onload = function(){
 //    document.getElementById('submit').style.opacity = 0;
 //    document.getElementById('thankYou').style.opacity = 1; 
 //}
-
+//
 //function checkFilled() {
 //    
 //	var filled = 0

@@ -3,7 +3,7 @@
         <span id='thankYou' style='opacity: 0'>
             THANK YOU FOR CONTACTING ME
         </span>
-        <form name='form'  ng-controller="formCtrl">
+        <form name='form'  ng-submit="submit()" ng-controller="formCtrl">
             <div>
                 <input name='name' class='form' ng-model="formData.name" type='text' id='name' placeholder='Name' required/>
             </div>
