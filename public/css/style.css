@@ -29,6 +29,9 @@ h3 {
   font-weight: bold;
   color: red;
 }
+.cards{
+  border: 2px black solid
+}
 /*********************
         Links
 **********************/
