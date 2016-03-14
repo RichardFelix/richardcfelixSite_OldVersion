@@ -3,10 +3,6 @@
 # Summary #
 This is my repository for my responsive website. 
 
-# Site Link #
-
-http://www.richardcfelix.com
-
 # Tools and Technology used #
 
 *     JavaScript
