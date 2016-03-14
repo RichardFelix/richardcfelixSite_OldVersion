@@ -1,3 +1,5 @@
+#** DEPRECIATED **#
+
 # Summary #
 This is my repository for my responsive website. 
 
