@@ -1,9 +1,9 @@
-#** DEPRECIATED **#
+# DEPRECIATED
 
-# Summary #
+## Summary 
 This is my repository for my responsive website. 
 
-# Tools and Technology used #
+## Tools and Technology used 
 
 *     JavaScript
 *     Node.js
@@ -13,9 +13,9 @@ This is my repository for my responsive website.
 *     HTML
 *     CSS
 
-# Screen Shots #
-### Mobile ###
-![mBack.png](https://bitbucket.org/repo/AA9G7b/images/2259327261-mBack.png)
+## Screen Shots 
+### Mobile 
+![mBack.png](https://github.com/RichardFelix/richardcfelixSite_OldVersion/blob/master/public/img/mBack.png)
 
-### Desktop ###
-![back.png](https://bitbucket.org/repo/AA9G7b/images/3024318750-back.png)
+## Desktop
+![back.png](https://github.com/RichardFelix/richardcfelixSite_OldVersion/blob/master/public/img/back.png)
