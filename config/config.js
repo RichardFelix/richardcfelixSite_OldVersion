@@ -1,5 +1,5 @@
 module.exports = config = {
-    sendgridUser: 'rfelix',
-    sendgridPwd: 'richiesd22',
+    sendgridUser: 'XXXXXXX',
+    sendgridPwd: 'XXXXXXXX',
     emailLocation: 'me@richardcfelix.com'
 };
